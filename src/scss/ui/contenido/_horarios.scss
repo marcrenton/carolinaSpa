@@ -1,0 +1,13 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+.horarios {
+  background-image: linear-gradient(
+      to right,
+      v.$primario 0%,
+      v.$primario 50%,
+      transparent 50%,
+      transparent 100%
+    )
+    url(../img/horarios.jpg);
+}
