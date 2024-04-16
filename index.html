@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Italianno&family=Lato:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="build/css/app.css" />
   </head>
   <body>
@@ -50,9 +54,23 @@
         </nav>
       </div>
     </div>
-    <section class="slider">
-      <ul class="slider__contenedor">
-        <li class="slider__slide">
+    <section class="swiper contenedor">
+      <ul class="swiper-wrapper">
+        <li class="swiper-slide">
+          <img
+            class="slider__imagen"
+            src="build/img/slide_01.jpg"
+            alt="imagen slider"
+          />
+        </li>
+        <li class="swiper-slide">
+          <img
+            class="slider__imagen"
+            src="build/img/slide_02.jpg"
+            alt="imagen slider"
+          />
+        </li>
+        <li class="swiper-slide">
           <img
             class="slider__imagen"
             src="build/img/slide_03.jpg"
@@ -295,5 +313,7 @@
         Carolina Spa & Salon.Todos los derechos reservados
       </p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
